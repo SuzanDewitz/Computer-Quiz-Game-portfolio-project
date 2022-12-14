@@ -20,6 +20,7 @@ body {
   align-items: center;
   background-color: hsl(var(--hue), 100%, 20%);
 }
+/* the actual question styling code from web dev simplified */
 
 body.correct {
   --hue: var(--hue-correct);
@@ -39,6 +40,7 @@ body.wrong {
   
 
 }
+
 /* button grid*/
 .btn-grid {
   display: grid;
@@ -47,6 +49,13 @@ body.wrong {
   margin: 20px 0;
 }
 /* button */
-.btn  {
-  display: grid;
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
 }
+
