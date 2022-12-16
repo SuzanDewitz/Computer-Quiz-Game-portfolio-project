@@ -27,7 +27,7 @@ body {
 
 /* start Quiz button  */
 .start_btn button{
-    font-size: 25px;
+    font-size: 100%;
     font-weight: 500;
     color:#00004d;
     padding: 15px 30px;
@@ -256,7 +256,7 @@ section .option_list .option{
 }
 
 section .option_list .option:hover{
-  color: #FFFFE0;
+  color: #FFFFF0;
   background: #000000;
   border: 1px solid #191970;
 }
@@ -417,17 +417,17 @@ footer {
 }
 
 
-/* Media queries */
+ /* media quearies for responsiveness */
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-  body{
-      overflow: scroll;
-  } 
-  .quiz_box{
-      width: 450px;
+/* for small screen */
+@media (max-width: 400px) 
+
+  #title {
+      font-size: 20px;
+      height: 15px
   }
-}
+
+
 /* for small screen sizes 800px and down */
 
 @media screen and (max-width: 760px){
@@ -439,4 +439,14 @@ footer {
       height:80vh;
       overflow:scroll;
   }
-};
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+  body{
+      overflow: scroll;
+  } 
+  .quiz_box{
+      width: 450px;
+  }
+}
+}
