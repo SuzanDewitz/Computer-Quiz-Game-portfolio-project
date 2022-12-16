@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
-const info_box = document.querySelector(".info_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
+const box_box = document.querySelector(".box_box");
+const exit_btn = box_box.querySelector(".buttons .quit");
+const continue_btn = box_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
@@ -13,16 +13,16 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 //If StartQuiz Button clicked
 start_btn.onclick = ()=>{
-    info_box.classList.add("activeInfo"); //show the info box
+    box_box.classList.add("activeInfo"); //show the info box
 };
 // if ExitQuiz button clicked
 exit_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide the info box
+    box_box.classList.remove("activeInfo"); //hide the info box
 };
 
 // if continueQuiz button clicked
 continue_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide the info box
+    box_box.classList.remove("activeInfo"); //hide the info box
     quiz_box.classList.add("activeQuiz"); //show the quiz box
     showQuestions(0); //calling showQuestions function
     queCounter(1); //passing 1 parameter to queCounter
@@ -139,20 +139,20 @@ next_btn.classList.add("show");
 } 
 // function showResult
 function showResult(){
-    info_box.classList.remove("activeInfo");  //hide the info box
+    box_box.classList.remove("activeInfo");  //hide the info box
     quiz_box.classList.remove("activeQuiz");  //hide the quiz box
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 5){  //if user scored more than 5 right answers
-        let scoreTag = '<p>and good! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag = '<p>good! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){  //if user got more than 1 right answers
-        let scoreTag = '<p>and nice, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag = '<p>nice, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else{  // if user scored less than 1 right asnwer
-        let scoreTag ='<p>and sorry, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag ='<p>sorry, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
 }
