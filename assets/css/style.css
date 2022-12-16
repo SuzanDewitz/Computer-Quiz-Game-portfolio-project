@@ -1,13 +1,19 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+
+html {
+  font-family:'Lora', 'Cormorant Garamond',  serif;
+  
+}
+
 *{
     margin: 0;
     padding: 0;
    box-sizing: border-box;
-   ont-family: 'Poppins', sans-serif;
+   
 }
-
+  /* style for body including background image */
 body {
 
   background: url('../images/night-sky.jpg'); no-repeat; /*https://rb.gy/e69kab*/
@@ -15,11 +21,12 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    font-family:'Lora', 'Cormorant Garamond',  serif;
 }
 
 ::selection{
   color: #fff;
-  background: #007bff;
+  background: #222c37;
 }
 
 .start_btn,
@@ -47,7 +54,7 @@ body {
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #007bff;
+    color:#00004d;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -165,7 +172,7 @@ body {
 }
 
 .quiz_box header .timer{
-  color: #004085;
+  color: #029547;
   display: flex;
   align-items: center;
   justify-content: space-between;
