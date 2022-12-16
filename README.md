@@ -4,9 +4,10 @@
 
 #### the youtube i used https://youtu.be/pQr4O1OITJo
 
+![background image]from freepik https://www.freepik.com/
 
 
-1. 
+1. What i used to shorten the url https://free-url-shortener.rb.gy/
 2. 
 3. 
 
