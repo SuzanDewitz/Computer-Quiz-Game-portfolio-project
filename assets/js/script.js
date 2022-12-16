@@ -105,7 +105,7 @@ function showQuestions(index){
 
 // div tags for icons
 let checkIconTag = '<div class="icon check"><i class="fa-sharp fa-solid fa-check"></i></div>';
-let xmarkIconTag = '<div class="icon xmark"><i class="fa-solid fa-x"></i>></div>';
+let xmarkIconTag = '<div class="icon xmark"><i class="fa-solid fa-x"></i></div>';
 
 // if user clicked on option
 function optionSelected(answer){
