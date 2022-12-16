@@ -104,9 +104,8 @@ function showQuestions(index){
 }
 
 // div tags for icons
-let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
-
+let checkIconTag = '<div class="icon check"><i class="fa-sharp fa-solid fa-check"></i></div>';
+let xmarkIconTag = '<div class="icon xmark"><i class="fa-solid fa-x"></i></div>';
 // if user clicked on option
 function optionSelected(answer){
     clearInterval(counter);
@@ -118,10 +117,10 @@ function optionSelected(answer){
     if(userAns == correctAns){
         userScore += 1;
         answer.classList.add("correct");  //adding green color to correct selected option
-        answer.insertAdjacentHTML("beforeend", checkIconTag); // adding tick icon
+        answer.insertAdjacentHTML("beforeend", checkIconTag); // adding check icon
     }else{  //answer is incorrect
         answer.classList.add("incorrect");  //addng red color to incorrect selected option
-        answer.insertAdjacentHTML("beforeend", xmarkIconTag); //adding cress icon
+        answer.insertAdjacentHTML("beforeend", xmarkIconTag); //adding xmark icon
 
         //if answer is incorrect then automatically selected the correct answer
         for(i=0; i < allOptions; i++) {
