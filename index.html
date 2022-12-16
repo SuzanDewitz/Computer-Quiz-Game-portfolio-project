@@ -14,22 +14,90 @@
 </head>
 <body>
     
-    <div class="container">
-        <div id="question-container" class="hide">
-          <div id="question">Question</div>
-          <div id="answer-buttons" class="btn-grid">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
-          </div>
+    <!--Start Quiz Button-->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!--Info box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of this Quiz:</span>
         </div>
-        <div class="controls">
-          <button id="start-btn" class="start-btn btn">Start</button>
-          <button id="next-btn" class="next-btn btn hide">Next</button>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>20 seconds </span> per each question.</div>
+            <div class="info">2. Once you selected your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>   
         </div>
-      </div>
-   
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+   <!--Quiz Box-->
+   <div class="quiz_box">
+    <header>
+        <div class="title">Fun quiz about computer!</div>
+        <div class="timer">
+            <div class="time_left_txt">Time Left</div>
+            <div class="timer_sec">20</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text">
+          <span>Which is the part of the computer system that one can physically touch?</span>
+        </div>
+        <div class="option_list">
+            <div class="option">
+                <span>data</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>hardware</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="option">
+                <span>software</span>
+            </div>
+            <div class="option">
+                <span>operating systems</span>
+            </div>
+        </div>
+    </section>
+
+ <!--Quiz box footer-->
+ <footer>
+  <div class="total_que">
+      <p><span>2</span> Of <span>5</span> Questions </p>
+  </div>
+  <button class="next_btn"> Click Next </button>
+</footer>
+</div>
+
+<!--Result Box-->
+<div class="result_box">
+<div class="icon">
+  <div class="icon"> 
+      <i class="fas fa-trophy"></i>
+  </div>
+</div>
+<div class="complete_text">You've completed the Quiz!</div>
+<div class="score_text">
+  <p> and sorry, You got only <span>2</span> out of <span>5</span></p>
+</div>
+<div class="buttons">
+  <button class="restart">Replay</button> 
+  <button class="quit">Quit</button>
+</div>
+</div>
+
+
+<!--Inside this JavaScript file I've inserted Questions and Options only-->
+<script src="assets/js/questions.js/"></script>
+
+    <!--Inside this JavaScript file I've coded all Quiz Codes-->
    <script src="assets/js/script.js"></script>
    </body>
    
