@@ -144,8 +144,8 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz");  //hide the quiz box
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 3){  //if user scored more than 3 right answers
-        let scoreTag = '<p>and congrats! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+    if (userScore > 5){  //if user scored more than 5 right answers
+        let scoreTag = '<p>and good! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){  //if user got more than 1 right answers
