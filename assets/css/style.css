@@ -16,7 +16,7 @@ html {
   /* style for body including background image */
 body {
 
-  background: url('../images/night-sky.jpg'); no-repeat; /*https://rb.gy/e69kab*/
+  background: url('../images/night-sky.jpg') no-repeat; /*https://rb.gy/e69kab*/
   background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -429,11 +429,12 @@ footer button:hover{
 /* media quearies starts here */
 
 /* for small screen */
-@media (max-width: 400px); 
-body{
-  overflow: scroll;
+@media (max-width: 400px){
+  body{
+    overflow: scroll;
+  }
 }
-  
+
 
 /* for small screen sizes 800px and down */
 
