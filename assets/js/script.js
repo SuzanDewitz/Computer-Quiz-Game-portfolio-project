@@ -144,15 +144,15 @@ function showResult(){
     result_box.classList.add("activeResult");  //show the result box
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 5){  //if user scored more than 5 right answers
-        let scoreTag = '<p>good! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag = '<p>Very good! You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 1){  //if user got more than 1 right answers
-        let scoreTag = '<p>nice, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag = '<p>Good, You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
     else{  // if user scored less than 1 right asnwer
-        let scoreTag ='<p>sorry, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
+        let scoreTag ='<p>Sorry, You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p>';
         scoreText.innerHTML = scoreTag;
     }
 }
