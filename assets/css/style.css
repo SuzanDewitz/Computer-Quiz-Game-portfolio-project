@@ -425,20 +425,7 @@ footer button:hover{
   transition: all 0.3s ease;
   overflow: hidden;
 }
-/* Footer section starts here */
-
-footer {
-	text-align: center;
-}
-
-.social-networks li {
-	display: inline;
-	list-style-type: none;
-	margin: 50px;
-}
-
-
- /* media quearies for responsiveness */
+/* media quearies starts here */
 
 /* for small screen */
 @media (max-width: 400px) 
