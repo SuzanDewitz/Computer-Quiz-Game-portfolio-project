@@ -15,6 +15,7 @@ const timeCount = document.querySelector(".timer .timer_sec");
 start_btn.onclick = ()=>{
     box_box.classList.add("activeInfo"); //show the info box
 };
+// if ExitQuiz button clicked
 exit_btn.onclick = ()=>{
     box_box.classList.remove("activeInfo"); //hide the info box
 };
@@ -64,7 +65,7 @@ quit_quiz.onclick = ()=>{
     window.location.reload();
 };
 const next_btn = document.querySelector("footer .next_btn");
-const bottom_ques_counter = document.querySelector("footer .total_que");
+
 //If Click Next button clicked
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){
