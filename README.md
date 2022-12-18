@@ -2,17 +2,23 @@
 ####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computerand have a bit of fun.
 ### It was built using HTML, CSS and JavaScript. 
 
- 
-![Wireframes](assets/images/responsive.png)
 
 
 
+![amiresponsive](assets/images/responsive.png)
+
+
+Am I Responive 
+
+
+### Goals 
+- To provide users with a fun interactive game.
+- To test the user's general knowledge skills.
+- To make the quiz responsive
+- To make the quiz responsive
 
 
 
-
-
- ## Table of Contents:
  
 
  ## UX
