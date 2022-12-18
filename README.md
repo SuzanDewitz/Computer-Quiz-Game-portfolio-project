@@ -25,17 +25,17 @@ Am I Responive
      * Replay box
      * Quit area
      
-
-2. Scores
-3. Rules/nstructions
-3. Testing
-4. Validator Testing
-5. Bugs
-6. Unfixed Bugs
-7. Technologies used
-8. Deployment
-9. Credits
-10. Acknowledgements
+2. Home Page 
+3. Rules/instructions
+4. Scores
+5. Deployment
+6. Testing
+6. Validator Testi
+7. Bugs
+8. Unfixed Bugs
+9. Technologies used
+11. Credits
+12. Acknowledgements
 
 # In features
 
@@ -44,6 +44,10 @@ Am I Responive
 2. TO add different difficulty levels to make the experience more challenging.
 3. To add video games  that are especially designed in the direction of knowledge.
 
+### Goals 
+- To provide users with a fun interactive game.
+- To test the user's general knowledge skills.
+- To make the quiz responsive
 
 ## The Home Page 
 #### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
@@ -70,11 +74,11 @@ Am I Responive
 
 
 # Deployment
-### This project was deployed to Github pages.
-   * In your repository on Github click settings
-   * Click the pages tab
-   * On the drop-down menu under source, select your main branch
-   * Click save
+### This website was deployed to GitHub pages. The steps to deploy are as follows:
+   * In the GitHub repository, navigate to settings tab.
+   * From the source section drop-down menu, select the Master Branch.
+   * Once the Master Branch has been selected, the page provided the link to the completed website.
+   
      
 ### 
 # Testing
@@ -82,116 +86,60 @@ Am I Responive
 ### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices.
 
 
-# Validation
+# Validation Testing
    * HTML: No errors were returned when passing through the official W3C validator. Files tested:
     
 ![html](assets/images/html%20w3c.png)
 
    * CSS: No errors were found when passing through the official W3C validator. Files tested:
+
 ![css](assets/images/style%20ccs.jpg)
-   * JS was run through JSHint with these results. (There were also several missing semicolons that I added before taking this screenshot.)
+
+   * JS: was run through JSHint with these results. (There were also several missing semicolons that I added before taking this screenshot.)
 Lighthouse Scores
+![js](assets/images/jav.png)
+# Issues and Bugs 
+ * I was getting warnings in jshint about ES6. Resolution found to clear these.
+   * jsHint /jshint esversion:6/ added to the top of js file, removed warnings.
+* Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+* Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
+   * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
+ * My biggest issue is still grammar mistakes. Need to pay more attention.
+# Lighthouse
+   * I tested he website on the Lighthouse testing in the chrome dev tools and the results are shown below.
+   [lighthouse](assets/images/lighthouse.jpg)
 
+# Technologies Used
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Goals 
-- To provide users with a fun interactive game.
-- To test the user's general knowledge skills.
-- To make the quiz responsive
-- To make the quiz responsive
-
-
-
- 
-
- ## UX
- 
-### Goals 
-
-
-
-
-
-- To make the quiz replayable through the use of 3 sets of questions with increasing levels of difficulty
-- To make the quiz intuitive to use and provide satisfying  for the user
-
-
-
-
-### To achieve these goals I used:
-
-- Use JavaScript to create a fictional quiz
-- Use CSS and HTML for the content and to make it look good
-- Use relative and accurate source material for the quiz
-- Use JavaScript to create a fictional quiz
-
-
-## Functionality
-
-
-## Questions and answers
-
-
-## Response box
-
-
-
-## Endquiz box
-
-
-## Deployment
-
-
-
-
-## Testing
-
-
-
-## Validation
-
-
-## Lighthouse Scores
-
-
-
-
-## Technologies used
-
-
-credits 
-----
-
-
-
-## Sources and References
-
-
+* HTML5
+* CSS3
+* javaScript
+* Gitpod
+* GitHub
+* Google Fonts
+* shutterstock
+* Chrome dev tools
 
 
 
 
 ## acknowledgements
+  * I'd like to thank my classmate Roshna Vakkeel for the useful feedback direction and guidance.
+  * Old student from Code Institute 
+  * The Slack Community were amazing and helpe throughout my project.
+   
+# The following sites were used on a more regular basis:
+   * I used W3C regularly for bug fixes and suggested features.
+   * Stack Overflow
+   * W3Schools
 
-
-
-
-# source 
+# Media
+## All my Icons are from: Font Awesome
+## My Font is from: Google Fonts
 #### To provide icon to the result-box. https://fontawesome.com/
 #### the youtube i used https://youtu.be/pQr4O1OITJo
+#### conver images i used https://www.freeconvert.com/
 
 
 
@@ -207,18 +155,6 @@ credits
 
 
 
-  **User Experience** 
-  
-   * Sub-nested bullet etc
-***Features***
-   * Header
-   * Instraction
-   * Scores
-   * Quiz area/questions area
-   * Game
-   * Result
-   * Win 
-   **User Experience**
 
 
 
@@ -228,16 +164,7 @@ credits
 
 
 
-> This is a blockquote
->  *  This is a list item within a blockquote
->  *  This is a list item within a blockquote
->  *  This is a list item within a blockquote
-* Bullet list
-  *  Nested bullet
-   * Sub-nested bullet etc
-     * Bullet list item 2
-* Sub-nested bullet etc
-     * Bullet list item 3
+
      
 
 
@@ -248,22 +175,7 @@ credits
 
 
 
-
-1. Just type a number follow by a dot.
-2. If you want to add a second item, just type in another number followed by a dot.
-1. If you make a mistake when typing numbers, fear not, Markdown will correct for you. 
-    1. If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
-        1. If you want to insert an indented numbered list within an existing indented numbered one, just press the tab key again. 
-            - If need be, you can also add an indented unordered list within an indented numbered one, by pressing a tab key and typing adash.
-
-            - If need be, you can also add an indented unordered list within an indented numbered one, by pressing a tab key and typing adash.
-
-
-            - 
-> This is a blockquote
-   > * This is a list item within a blockquote
-    > * This is a list item within a blockquote
-            > * This is a list item within a blockquote            
+           
 
 
 
