@@ -17,7 +17,7 @@ Am I Responive
      * Rules
      * Exit butten
      * Continue butten
-     * Scores
+     
      * Quiz area
      * Instructions
      * Result
@@ -27,7 +27,7 @@ Am I Responive
      * Quit area
      
 
-## Scores
+2. Scores
 3. Rules/nstructions
 3. Testing
 4. Validator Testing
@@ -49,7 +49,8 @@ Am I Responive
 ## The Home Page 
 #### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
 
-![homepage](assets/images/project2%20homepage.png)
+![homepage](assets/images/homepage.png)
+
 
 
 ## Rules/nstructions
@@ -57,6 +58,16 @@ Am I Responive
 ### How many questions, how many seconds per question, what is allowed and what is not, To worry the player if exits without finishing the quiz the player loses, and for each question he gets points, and so on.
 
 ![roles](assets/images/project2%20rules.png)
+
+## Scores
+
+### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 5 right answers it display "Good,You got only 5
+
+![roles](assets/images/project2%20trophy%201.png)
+
+![roles](assets/images/project2%20trophy%202.png)
+
+### 
 
 
 
