@@ -64,9 +64,9 @@ Am I Responive
 ### Once the user selects an answer they will see a correct or incorrect answer box.
 ### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 5 right answers it display "Good,You got only 5
 
-![rules](assets/images/a%20%20trophy.jpg)
+![Scores](assets/images/b%20trophy.png)
 
-![rules](assets/images/d%20trophy.jpg)
+![Scores](assets/images/d%20trophy.jpg)
 
 
 # Deployment
@@ -85,10 +85,13 @@ Am I Responive
 # Validation
    * HTML: No errors were returned when passing through the official W3C validator. Files tested:
     
-![rules](assets/images/html%20w3c.png)
+![html](assets/images/html%20w3c.png)
 
    * CSS: No errors were found when passing through the official W3C validator. Files tested:
-![rules](assets/images/html%20w3c.png)
+![css](assets/images/style%20ccs.jpg)
+   * JS was run through JSHint with these results. (There were also several missing semicolons that I added before taking this screenshot.)
+Lighthouse Scores
+
 
 
 
