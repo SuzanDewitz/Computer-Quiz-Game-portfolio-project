@@ -11,6 +11,68 @@
 Am I Responive 
 
 
+# Table of Contents
+ 1. UX
+ 2. Future Features
+     * Rules
+     * Exit butten
+     * Continue butten
+     * Scores
+     * Quiz area
+     * Instructions
+     * Result
+     * Quiz area
+     * Lose box
+     * Replay box
+     * Quit area
+     
+
+## Scores
+3. Rules/nstructions
+3. Testing
+4. Validator Testing
+5. Bugs
+6. Unfixed Bugs
+7. Technologies used
+8. Deployment
+9. Credits
+10. Acknowledgements
+
+# In features
+
+### TO  improve my website,and i would like to add additional in the future features like:-
+1. To create dynamic and functional structures for with a variety of applications. 
+2. TO add different difficulty levels to make the experience more challenging.
+3. To add video games  that are especially designed in the direction of knowledge.
+
+
+## The Home Page 
+#### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
+
+![homepage](assets/images/project2%20homepage.png)
+
+
+## Rules/nstructions
+### The instructions for the game are shown directly after clicking the Let's play logo so that the user knows what to do before they start the challenge quiz.
+### How many questions, how many seconds per question, what is allowed and what is not, To worry the player if exits without finishing the quiz the player loses, and for each question he gets points, and so on.
+
+![roles](assets/images/project2%20rules.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Goals 
 - To provide users with a fun interactive game.
 - To test the user's general knowledge skills.
@@ -30,9 +92,9 @@ Am I Responive
 
 
 - To make the quiz replayable through the use of 3 sets of questions with increasing levels of difficulty
-- To make the quiz intuitive to use and provide satisfying feedback for the user
-- esign a quiz that is aesthetically pleasing
-- To make the quiz responsive
+- To make the quiz intuitive to use and provide satisfying  for the user
+
+
 
 
 ### To achieve these goals I used:
@@ -202,23 +264,11 @@ credits
 
 
 
- **  **
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+ 
 	
 
 
 
-**Existing Features**
-# header H1
-## header H2
-### header H3
-#### header H4
-##### header H5
-###### header H6
 
 
 
@@ -236,55 +286,16 @@ $ npm start
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 
-#### the youtube i used https://youtu.be/pQr4O1OITJo
-#JS Challenge Assist in sclak
-
-![background image]from freepik https://www.freepik.com/
-![For all commit]commit https://cbea.ms/git-commit//
-
-1. What i used to shorten the url https://free-url-shortener.rb.gy/
-2. 
-3. 
-
-
-------
-
-## Release History
-
-
-**April 13 2020:** 
-
-**February 2020:** 
-**December 2019:** 
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-.
-
-**How will this affect me?**
 
 
 
-- 
-- 
-- 
 
 
 
-**So….?**
 
 
-
-**Can I opt out?**
-
-
-
-**Anything more?**
 
 
