@@ -1,5 +1,5 @@
 # Computer Quiz Game
-####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computerand have a bit of fun.
+####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computer and have a bit of fun.
 ### It was built using HTML, CSS and JavaScript. 
 
 
@@ -14,10 +14,9 @@ Am I Responive
 # Table of Contents
  1. UX
  2. Future Features
-     * Rules
+     
      * Exit butten
      * Continue butten
-     
      * Quiz area
      * Instructions
      * Result
@@ -49,26 +48,47 @@ Am I Responive
 ## The Home Page 
 #### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
 
-![homepage](assets/images/homepage.png)
 
+
+![homepage](assets/images/homepage.png)
 
 
 ## Rules/nstructions
 ### The instructions for the game are shown directly after clicking the Let's play logo so that the user knows what to do before they start the challenge quiz.
 ### How many questions, how many seconds per question, what is allowed and what is not, To worry the player if exits without finishing the quiz the player loses, and for each question he gets points, and so on.
 
-![roles](assets/images/project2%20rules.png)
+![rules](assets/images/rules.jpg)
 
 ## Scores
 
+### Once the user selects an answer they will see a correct or incorrect answer box.
 ### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 5 right answers it display "Good,You got only 5
 
-![roles](assets/images/project2%20trophy%201.png)
+![rules](assets/images/a%20%20trophy.jpg)
 
-![roles](assets/images/project2%20trophy%202.png)
+![rules](assets/images/d%20trophy.jpg)
 
+
+# Deployment
+### This project was deployed to Github pages.
+   * In your repository on Github click settings
+   * Click the pages tab
+   * On the drop-down menu under source, select your main branch
+   * Click save
+     
 ### 
+# Testing
 
+### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices.
+
+
+# Validation
+   * HTML: No errors were returned when passing through the official W3C validator. Files tested:
+    
+![rules](assets/images/html%20w3c.png)
+
+   * CSS: No errors were found when passing through the official W3C validator. Files tested:
+![rules](assets/images/html%20w3c.png)
 
 
 
