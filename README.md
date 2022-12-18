@@ -12,10 +12,101 @@
 
 
 
- # Table of Contents
- -------------
-  ***Purpose***
-  ***User Experience***
+ ## Table of Contents:
+ 
+
+ ## UX
+ 
+### Goals 
+
+
+
+
+
+- To make the quiz replayable through the use of 3 sets of questions with increasing levels of difficulty
+- To make the quiz intuitive to use and provide satisfying feedback for the user
+- esign a quiz that is aesthetically pleasing
+- To make the quiz responsive
+
+
+### To achieve these goals I used:
+
+- Use JavaScript to create a fictional quiz
+- Use CSS and HTML for the content and to make it look good
+- Use relative and accurate source material for the quiz
+- Use JavaScript to create a fictional quiz
+
+
+## Functionality
+
+
+## Questions and answers
+
+
+## Response box
+
+
+
+## Endquiz box
+
+
+## Deployment
+
+
+
+
+## Testing
+
+
+
+## Validation
+
+
+## Lighthouse Scores
+
+
+
+
+## Technologies used
+
+
+credits 
+----
+
+
+
+## Sources and References
+
+
+
+
+
+
+## acknowledgements
+
+
+
+
+# source 
+#### To provide icon to the result-box. https://fontawesome.com/
+#### the youtube i used https://youtu.be/pQr4O1OITJo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  **User Experience** 
+  
    * Sub-nested bullet etc
 ***Features***
    * Header
@@ -25,7 +116,16 @@
    * Game
    * Result
    * Win 
---
+   **User Experience**
+
+
+
+
+
+
+
+
+
 > This is a blockquote
 >  *  This is a list item within a blockquote
 >  *  This is a list item within a blockquote
