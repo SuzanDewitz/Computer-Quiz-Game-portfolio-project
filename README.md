@@ -3,7 +3,7 @@
 ### It was built using HTML, CSS and JavaScript. 
 
  
- ![amiresposive](assets/images/responsive.jpg)
+
 
 
 
