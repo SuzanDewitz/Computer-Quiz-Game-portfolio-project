@@ -1,13 +1,30 @@
 # Computer Quiz Game
-###  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computerand have a bit of fun.
+####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computerand have a bit of fun.
 ### It was built using HTML, CSS and JavaScript. 
 
-![amiresposive](./assets/images/responsive.jpg)
+ 
+ ![amiresposive](assets/images/responsive.jpg)
+
+
+
+
+
+
+
 
  # Table of Contents
- ------
- ***User Experience***
+ -------------
+  ***Purpose***
+  ***User Experience***
+   * Sub-nested bullet etc
 ***Features***
+   * Header
+   * Instraction
+   * Scores
+   * Quiz area/questions area
+   * Game
+   * Result
+   * Win 
 --
 > This is a blockquote
 >  *  This is a list item within a blockquote
@@ -18,7 +35,7 @@
    * Sub-nested bullet etc
      * Bullet list item 2
 * Sub-nested bullet etc
-     * Bullet list item 2
+     * Bullet list item 3
      
 
 
