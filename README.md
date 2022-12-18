@@ -13,6 +13,21 @@
 >  *  This is a list item within a blockquote
 >  *  This is a list item within a blockquote
 >  *  This is a list item within a blockquote
+* Bullet list
+  *  Nested bullet
+   * Sub-nested bullet etc
+     * Bullet list item 2
+* Sub-nested bullet etc
+     * Bullet list item 2
+     
+
+
+
+
+
+
+
+
 
 
 1. Just type a number follow by a dot.
