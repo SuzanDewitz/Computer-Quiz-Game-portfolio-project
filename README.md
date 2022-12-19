@@ -112,7 +112,7 @@ Am I Responive
 
 
 ## Rules/nstructions
-### The instructions for the game are shown directly after clicking the Let's play logo so that the user knows what to do before they start the challenge quiz.
+#### The instructions for the game are shown directly after clicking the Let's play logo so that the user knows what to do before they start the challenge quiz.
 ### How many questions, how many seconds per question, what is allowed and what is not, To worry the player if exits without finishing the quiz the player loses, and for each question he gets points, and so on.
 <br>
 <br>
@@ -159,7 +159,7 @@ Am I Responive
 * If the user start playing the Timer box apper on the right side "Time on"
 <br>
 
-![timeoff](assets/images/time%20on.jpg)
+![timeon](assets/images/time%20on.jpg)
 
 
 
@@ -175,7 +175,7 @@ Am I Responive
 ### 
 # Testing
 
-### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices including my own android 8.
+#### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices including my own android 8.
 <br>
 <br>
 
@@ -241,22 +241,27 @@ Lighthouse Scores
 
 
 ## acknowledgements
+  * Code institute Love Maths
   * I'd like to thank my classmate Roshna Vakkeel for the useful feedback direction and guidance.
   * Old student from Code Institute 
   * The Slack Community were amazing and helpe throughout my project.
+
    
 # The following sites were used on a more regular basis:
    * I used W3C regularly for bug fixes and suggested features.
    * Stack Overflow
    * W3Schools
    * Free Code Camp
-
+   
 # Media
-## All my Icons are from: Font Awesome
-## My Font is from: Google Fonts
+#### conver images i used https://www.freeconvert.com/
+#### All my Icons are from: Font Awesome
+#### My Font is from: Google Fonts
 #### To provide icon to the result-box. https://fontawesome.com/
 #### the youtube i used https://youtu.be/pQr4O1OITJo
-#### conver images i used https://www.freeconvert.com/
+#### Web Dev Simplified Build A Quiz App With JavaScript
+#### 
+
 
 
 
