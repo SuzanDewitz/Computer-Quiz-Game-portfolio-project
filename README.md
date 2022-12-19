@@ -13,51 +13,79 @@
 
 ![amiresponsive](assets/images/responsive.png)
 
-<br>
-<br>
+
 
 
 
 Am I Responive 
 
 
+<br>
+<br>
+
+
 # Table of Contents
- 1. UX
+ 1. User Experience Design(UX)
  2. Future Features
-     
-     * Exit butten
-     * Continue butten
-     * Quiz area
+     * Play area
      * Rules/instructions
-     * Result
-     * Quiz area
-     * Lose box
-     * Replay box
+     * Exit butten/Continue butten
+     * Game area
+     * Next box
+     * Result area
+     * Replay box/Quit box
      
      
-2. Home Page 
-3. Rules/instructions
-4. Scores
-5. Deployment
-6. Testing
-6. Validator Testi
-7. Bugs
-8. Unfixed Bugs
-9. Technologies used
-11. Credits
-12. Acknowledgements
+2. Gols    
+3. Home Page 
+4. Rules/instructions
+5. Scores counter
+6. Deployment
+7. Testing
+8. Validator Testing
+9. Bugs
+10. Unfixed Bugs
+11. Technologies used
+12. Credits
+13. Acknowledgements
 
-# In features
 
-### TO  improve my website,and i would like to add additional in the future features like:-
+  <br>
+  <br>
+
+## User Experience Design(UX)
+  * As a User
+     * As a user, I want a website that is easy to navigate and understands the main 
+       purpose of the site.
+     * As a user, I want clear instructions on how to play the game. 
+      * As a user, I want there to be a score counter, that will keep track of the scores.
+       <br>
+       <br>
+   * As a returning user 
+      * As a returning user, I want to play fast and smooth. without lags or accessibility defects affecting the overall experience.
+      * As a returning user, I want the website to be continually updated with new features to keep me coming back and playing the game.
+
+<br>
+<br>
+
+# Future features
+
+### To  improve my website,and i would like to add additional in the future features like:-
 1. To create dynamic and functional structures for with a variety of applications. 
-2. TO add different difficulty levels to make the experience more challenging.
+2. To add different difficulty levels to make the experience more challenging.
 3. To add video games  that are especially designed in the direction of knowledge.
+<br>
+<br>
 
-### Goals 
-- To provide users with a fun interactive game.
-- To test the user's general knowledge skills.
-- To make the quiz responsive
+###  Goals 
+1. To provide users with a fun interactive game.
+2. To test the user's general knowledge skills.
+3. To make the quiz responsive 
+
+<br>
+<br>
+
+
 
 ## The Home Page 
 #### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
@@ -93,7 +121,7 @@ Am I Responive
 ### 
 # Testing
 
-### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices.
+### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices including my own android 8.
 
 
 # Validation Testing
@@ -143,6 +171,7 @@ Lighthouse Scores
    * I used W3C regularly for bug fixes and suggested features.
    * Stack Overflow
    * W3Schools
+   * Free Code Camp
 
 # Media
 ## All my Icons are from: Font Awesome
