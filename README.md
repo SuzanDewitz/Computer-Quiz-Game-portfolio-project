@@ -49,9 +49,9 @@ Am I Responive
 8. Validator Testing
 9. Issues and Bugs
 10. Technologies used
-11. Forking the Repository
-12. Credits
-13. Acknowledgements
+11. Credits
+12. Acknowledgements
+13. Media
 
 
   <br>
@@ -188,6 +188,7 @@ Am I Responive
    * In the GitHub repository, navigate to settings tab.
    * From the source section drop-down menu, select the Master Branch.
    * Once the Master Branch has been selected, the page provided the link to the completed website.
+   #### The live link to this website can be found here - https://suzandewitz.github.io/Computer-Quiz-Game-portfolio-project/
   <br>
 <br>
      
@@ -229,11 +230,11 @@ Lighthouse Scores
 <br>
 
 ## Issues and Bugs
- * I was getting warnings in jshint about ES6. Resolution found to clear these.
+ * There was only one problem I encountered while developing this website, and it was not an issue with the website itself. 
  
    * jsHint /jshint esversion:6/ added to the top of js file, removed warnings.
-   * Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
-* Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
+   * Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour Mosh Hamedani)
+   * Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
    * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
  * My problem is having grammar mistakes.I have to work on it.
