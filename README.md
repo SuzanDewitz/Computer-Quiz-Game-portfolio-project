@@ -1,11 +1,21 @@
 # Computer Quiz Game
 ####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computer and have a bit of fun.
-### It was built using HTML, CSS and JavaScript. 
+
+* It was built using HTML, CSS and JavaScript. 
+<br>
+
+<br>
+
+<br>
 
 
 
 
 ![amiresponsive](assets/images/responsive.png)
+
+<br>
+<br>
+
 
 
 Am I Responive 
@@ -18,12 +28,12 @@ Am I Responive
      * Exit butten
      * Continue butten
      * Quiz area
-     * Instructions
+     * Rules/instructions
      * Result
      * Quiz area
      * Lose box
      * Replay box
-     * Quit area
+     
      
 2. Home Page 
 3. Rules/instructions
@@ -109,6 +119,7 @@ Lighthouse Scores
 # Lighthouse
    * I tested he website on the Lighthouse testing in the chrome dev tools and the results are shown below.
    [lighthouse](assets/images/lighthouse.jpg)
+   [lighthouse](assets/images/A%20lighthouse.png)
 
 # Technologies Used
 
@@ -118,7 +129,6 @@ Lighthouse Scores
 * Gitpod
 * GitHub
 * Google Fonts
-* shutterstock
 * Chrome dev tools
 
 
