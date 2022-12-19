@@ -54,11 +54,13 @@ Am I Responive
   <br>
 
 ## User Experience Design(UX)
-  * As a User
+  * As a User,
      * As a user, I want a website that is easy to navigate and understands the main 
        purpose of the site.
+     * As a user, I want to view questions and answers about computers to get more knowledge.
      * As a user, I want clear instructions on how to play the game. 
       * As a user, I want there to be a score counter, that will keep track of the scores.
+      * As a user, I want view the site on mobile/desktop/tablet.
        <br>
        <br>
    * As a returning user 
@@ -71,9 +73,10 @@ Am I Responive
 # Future features
 
 ### To  improve my website,and i would like to add additional in the future features like:-
-1. To create dynamic and functional structures for with a variety of applications. 
-2. To add different difficulty levels to make the experience more challenging.
-3. To add video games  that are especially designed in the direction of knowledge.
+1. To add more video games that are specially designed in the direction of knowledge learning by playing
+2. To create dynamic and functional structures for with a variety of applications. 
+3. To add different difficulty levels to make the experience more challenging.
+
 <br>
 <br>
 
@@ -89,17 +92,42 @@ Am I Responive
 
 ## The Home Page 
 #### When the user opens the webpage, the website with"Let's play" logo is the first page that will catch their attention.It is large and stands out as it identifies the game to them immediately.As soon as they see the logo page they will immediately know what it is that they are going to play once they open the webpage.
+<br>
+<br>
+<br>
+
 
 
 
 ![homepage](assets/images/homepage.png)
 
+<br>
+<br>
+
+
+
+
+<br>
+<br>
+
 
 ## Rules/nstructions
 ### The instructions for the game are shown directly after clicking the Let's play logo so that the user knows what to do before they start the challenge quiz.
 ### How many questions, how many seconds per question, what is allowed and what is not, To worry the player if exits without finishing the quiz the player loses, and for each question he gets points, and so on.
+<br>
+<br>
 
 ![rules](assets/images/rules.jpg)
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
 
 ## Scores
 
@@ -107,8 +135,33 @@ Am I Responive
 ### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 5 right answers it display "Good,You got only 5
 
 ![Scores](assets/images/b%20trophy.png)
+<br>
+<br>
 
 ![Scores](assets/images/d%20trophy.jpg)
+<br>
+<br>
+<br>
+
+* Quiz box page middle part consists of a question and a selection of answers area.
+<br>
+
+
+![test](assets/images/test%20area%20.jpg)
+
+
+* If the timer stopped, the text "Time left" will change to "Time off".
+<br>
+![timeoff](assets/images/time%20off.jpg)
+<br>
+<br>
+
+* If the user start playing the Timer box apper on the right side "Time on"
+<br>
+
+![timeoff](assets/images/time%20on.jpg)
+
+
 
 
 # Deployment
@@ -116,27 +169,45 @@ Am I Responive
    * In the GitHub repository, navigate to settings tab.
    * From the source section drop-down menu, select the Master Branch.
    * Once the Master Branch has been selected, the page provided the link to the completed website.
-   
+  <br>
+<br>
      
 ### 
 # Testing
 
 ### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices including my own android 8.
-
+<br>
+<br>
 
 # Validation Testing
    * HTML: No errors were returned when passing through the official W3C validator. Files tested:
+   <br>
     
 ![html](assets/images/html%20w3c.png)
+<br>
+<br>
+
 
    * CSS: No errors were found when passing through the official W3C validator. Files tested:
+<br>
 
 ![css](assets/images/style%20ccs.jpg)
 
+<br>
+<br>
+
+
    * JS: was run through JSHint with these results. (There were also several missing semicolons that I added before taking this screenshot.)
 Lighthouse Scores
+
+<br>
+
 ![js](assets/images/jav.png)
-# Issues and Bugs 
+
+<br>
+<br>
+
+## Bugs/Unfixed Bugs
  * I was getting warnings in jshint about ES6. Resolution found to clear these.
    * jsHint /jshint esversion:6/ added to the top of js file, removed warnings.
 * Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
@@ -146,8 +217,15 @@ Lighthouse Scores
  * My biggest issue is still grammar mistakes. Need to pay more attention.
 # Lighthouse
    * I tested he website on the Lighthouse testing in the chrome dev tools and the results are shown below.
+    <br>
+
    [lighthouse](assets/images/lighthouse.jpg)
    [lighthouse](assets/images/A%20lighthouse.png)
+
+   <br>
+   <br>
+
+   
 
 # Technologies Used
 
