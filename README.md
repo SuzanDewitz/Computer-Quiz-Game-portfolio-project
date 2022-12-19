@@ -1,7 +1,10 @@
-# Computer Quiz Game
-####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz. The aim of the game is to encourage the user to take part  test their general knowledge skills what he/she know about computer and have a bit of fun.
+# Milestone Project 2
+<br>
 
-* It was built using HTML, CSS and JavaScript. 
+## Computer Quiz Game
+####  This website has been created as the second Milestone project for Code Institute's Full Stack Software Development Diploma.In this project, i have created a fun & interactive, multiple-choice quiz.The knowledge gained from the HTML, CSS,and Java Script Essentials modules played a key role in developing the interactive web page.The aim of the game is to encourage the user to take part test their general knowledge skills what he/she know about computer and have a bit of fun.
+
+<br>
 <br>
 
 <br>
@@ -43,9 +46,9 @@ Am I Responive
 6. Deployment
 7. Testing
 8. Validator Testing
-9. Bugs
-10. Unfixed Bugs
-11. Technologies used
+9. Issues and Bugs
+10. Technologies used
+11. Forking the Repository
 12. Credits
 13. Acknowledgements
 
@@ -63,7 +66,7 @@ Am I Responive
       * As a user, I want view the site on mobile/desktop/tablet.
        <br>
        <br>
-   * As a returning user 
+   * As a returning user, 
       * As a returning user, I want to play fast and smooth. without lags or accessibility defects affecting the overall experience.
       * As a returning user, I want the website to be continually updated with new features to keep me coming back and playing the game.
 
@@ -131,8 +134,22 @@ Am I Responive
 
 ## Scores
 
-### Once the user selects an answer they will see a correct or incorrect answer box.
-### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 5 right answers it display "Good,You got only 5
+### when the user selects the a correct answer the box show by display green color with tick icons.
+
+![Scores](assets/images/correct.jpg)
+<br>
+<br>
+<br>
+
+### when the user selects  in correct answer the box show by display red color with xmark icons.
+
+![Scores](assets/images/incorrect.jpg)
+
+
+### This scores are displayed if user score less than 1 it display "Sorry,You got only 1. if user scored more than 10 right answers it display "Very good,You got 10 out of 10.
+
+
+<br>
 
 ![Scores](assets/images/b%20trophy.png)
 <br>
@@ -174,12 +191,14 @@ Am I Responive
      
 ### 
 # Testing
+<br>
 
 #### Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of classmates and slack, I am confident my website works responsively on all popular devices including my own android 8.
 <br>
 <br>
 
 # Validation Testing
+<
    * HTML: No errors were returned when passing through the official W3C validator. Files tested:
    <br>
     
@@ -207,14 +226,23 @@ Lighthouse Scores
 <br>
 <br>
 
-## Bugs/Unfixed Bugs
+## Issues and Bugs
  * I was getting warnings in jshint about ES6. Resolution found to clear these.
+ 
    * jsHint /jshint esversion:6/ added to the top of js file, removed warnings.
-* Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
+   * Timer and time liner didn't run in sync. Corrected SetInterval. (JavaScript in easy steps by Mike McGrath)
 * Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
    * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
  * My biggest issue is still grammar mistakes. Need to pay more attention.
+
+
+
+ <br>
+ <br>
+ <br>
+
+
 # Lighthouse
    * I tested he website on the Lighthouse testing in the chrome dev tools and the results are shown below.
     <br>
@@ -229,8 +257,8 @@ Lighthouse Scores
 
 # Technologies Used
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * javaScript
 * Gitpod
 * GitHub
@@ -239,6 +267,7 @@ Lighthouse Scores
 
 
 
+# Credits
 
 ## acknowledgements
   * Code institute Love Maths
@@ -247,7 +276,7 @@ Lighthouse Scores
   * The Slack Community were amazing and helpe throughout my project.
 
    
-# The following sites were used on a more regular basis:
+## The following sites were used on a more regular basis:
    * I used W3C regularly for bug fixes and suggested features.
    * Stack Overflow
    * W3Schools
