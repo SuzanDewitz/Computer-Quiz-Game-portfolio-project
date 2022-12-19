@@ -1,4 +1,5 @@
 # Milestone Project 2
+
 <br>
 
 ## Computer Quiz Game
@@ -169,6 +170,7 @@ Am I Responive
 
 * If the timer stopped, the text "Time left" will change to "Time off".
 <br>
+
 ![timeoff](assets/images/time%20off.jpg)
 <br>
 <br>
@@ -234,7 +236,7 @@ Lighthouse Scores
 * Timer didn't start counting from 20 decreasing straight away, showed at first previous answer time result.
    * Added timeCount.textContent = time to function startTimer. Solved this issue.
 
- * My biggest issue is still grammar mistakes. Need to pay more attention.
+ * My problem is having grammar mistakes.I have to work on it.
 
 
 
@@ -288,8 +290,10 @@ Lighthouse Scores
 #### My Font is from: Google Fonts
 #### To provide icon to the result-box. https://fontawesome.com/
 #### the youtube i used https://youtu.be/pQr4O1OITJo
-#### Web Dev Simplified Build A Quiz App With JavaScript
-#### 
+#### the youtube i used Web Dev Simplified Build A Quiz App With JavaScript
+
+
+
 
 
 
